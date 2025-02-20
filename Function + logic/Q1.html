@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // wap to create calculator using udf & switch case.
+
+        function addition(num1, num2) {
+            document.write(num1 + " + " + num2 + " + " + (num1 + num2));
+        }
+        function Subtraction(num1, num2) {
+            document.write(num1 + " + " + num2 + " + " + (num1 - num2));
+        }
+        function Multiplication(num1, num2) {
+            document.write(num1 + " + " + num2 + " + " + (num1 * num2));
+        }
+        function division(num1, num2) {
+            document.write(num1 + " + " + num2 + " + " + (num1 / num2));
+        }
+
+        let x = prompt("Enter the value of num1: ");
+        let y = prompt("Enter the value of num2: ");
+
+        let choice = prompt("Enter your choice:");
+
+        num1 = parseInt(x);
+        num2 = parseInt(y);
+
+        switch (choice) {
+            case '+': addition(num1, num2);
+                break;
+            case '+': Subtraction(num1, num2);
+                break;
+            case '+': Multiplication(num1, num2);
+                break;
+            case '+': division(num1, num2);
+                break;
+            default: document.write("Enter valid input from (+,-,*,/ )")
+        }
+    </script>
+</body>
+
+</html>

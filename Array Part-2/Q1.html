@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // check number is palindrom or not.
+
+        let realName = "nayan";
+        let reverseName = "";
+
+        for (let i = realName.length - 1; i >= 0; i--) {
+            reverseName += realName[i];
+        }
+        if (realName == reverseName) {
+            document.write("Name is palindrom");
+        }
+        else {
+            document.write("Name is not palindrom");
+        }
+    </script>
+</body>
+
+</html>

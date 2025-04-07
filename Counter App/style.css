@@ -1,0 +1,77 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+body {
+    height:100vh;
+    background-image:url('images/img1.avif');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.container {
+    width:20%;
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin:auto;
+    position:relative;
+    top:30%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+button:hover {
+    background-color:white;
+    color:black;
+    border:2px solid black;
+}
+
+button:disabled:hover {
+    background-color: white;
+    color: black;
+     border: 2px solid black;
+}
+
+#countdownDisplay {
+    font-size: 5rem;
+    margin: 1rem 0;
+    color: #333;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls {
+    margin-top: 1rem;
+}

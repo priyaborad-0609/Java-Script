@@ -1,4 +1,4 @@
-Overview
+
 A simple counter application that allows users to increment, decrement, and reset a numeric value. Built with [insert technologies/frameworks used, e.g., React, JavaScript, HTML/CSS].
 
 Features

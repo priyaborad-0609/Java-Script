@@ -1,0 +1,60 @@
+*
+{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: url('assets/img1.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.note_container
+{
+    height:500px;
+    width:80%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.993);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba(180, 161, 171, 0.527);
+    margin:auto;
+    margin-top:4%;
+}
+.note_container h1
+{
+    position:relative;
+    top:11px;
+}
+.note_container img
+{
+    height:40px;
+    width:40px;
+    position:relative;
+    top:-5%;
+    left:33%;
+}
+input
+{
+    height:40px;
+    width:40%;
+    position: relative;
+    top:10%;
+    left:-10%;
+    padding:10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid grey;
+}
+#btn
+{
+    height:40px;
+    width:60px;
+    border-radius: 10px;
+    border: none;
+    padding:10px;
+    border: 1px solid grey;
+    background-color: rgb(255, 255, 255);
+}
+
